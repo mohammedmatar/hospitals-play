@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "node-sass": "registry:dt/node-sass#3.10.1+20161012132902"
+  }
+}

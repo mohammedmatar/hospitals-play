@@ -1,0 +1,11 @@
+<ion-view title="Hospitals" id="page2">
+  <ion-nav-buttons side="left" class="has-header">
+    <button class="button button-icon icon ion-ios-moon"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <ion-list id="hospitals-list1" ng-repeat="hospital in hospitals">
+      <ion-item class="calm" id="hospitals-list-item1">{{hospital.name}}</ion-item>
+      <!--<ion-item class="calm" id="hospitals-list-item2">Hospital Name</ion-item>-->
+    </ion-list>
+  </ion-content>
+</ion-view>
